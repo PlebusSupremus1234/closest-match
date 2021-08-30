@@ -1,0 +1,16 @@
+{
+  "name": "closest-match",
+  "version": "1.0.0",
+  "description": "Uses Levenshtein Distance to find the closest string match or matches in an array",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "levenshtien",
+    "leven",
+    "closest-match"
+  ],
+  "author": "Plebus Supremus",
+  "license": "ISC"
+}

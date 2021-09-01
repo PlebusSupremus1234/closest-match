@@ -1,6 +1,6 @@
 {
   "name": "closest-match",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "Uses Levenshtein Distance to find the closest string match or matches in an array",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",

@@ -1,7 +1,6 @@
-const distance = require("./distance")
+import { distance } from "./distance"
 
-module.exports = (target, array, showOccurrences = false) => {
-    if (!target || !array || !Array.isArray(array)) throw new Error("Please input the correct inputs");
+export const closestMatch = (target: string, array: string[], showOccurrences = false) => {
     if (array.length === 0) return null;
 
     let vals = [];

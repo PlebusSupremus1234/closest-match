@@ -1,6 +1,4 @@
-module.exports = (a, b) => {
-    if (!a || !b) throw new Error("Expected two string arguments");
-
+export const distance = (a: string, b: string) => {
     if (a.length === 0) return b.length; 
     if (b.length === 0) return a.length;
 

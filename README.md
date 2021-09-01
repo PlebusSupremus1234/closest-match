@@ -23,8 +23,8 @@ closest_match.closestMatch(text, array, true) // An array of all elements in an 
 # Methods
 
 | Method | Explanation |
-|--------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| distance(text1, text2) | Returns the Levenshtein difference between the strings |
+|-|-|
+| distance(text1, text2) | Returns the Levenshtein difference between the strings. |
 | closestMatch(text, array, showOccurrences) | Returns the closest match of a specified string in an array. If showOccurrences is true, then it returns an array of all of  the closest matches to the string in an array. |
 
 # Examples
@@ -32,7 +32,7 @@ closest_match.closestMatch(text, array, true) // An array of all elements in an 
 ```js
 const { distance, closestMatch } = require("closest-match");
 
-console.log(distance("hello world", "hello")); // 6
+console.log(distance("hlelo", "hello")); // 2
 
 console.log(closestMatch("dag", ["dog", "pumpkin"])); //dog
 
